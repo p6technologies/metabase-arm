@@ -9,7 +9,7 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["metabase/metabase"],
+      "matchPackageNames": ["metabase/metabase-enterprise"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "ignoreTests": true
@@ -22,7 +22,7 @@
         ".github/workflows/build.yml"
       ],
       "datasourceTemplate": "github-releases",
-      "depNameTemplate": "metabase/metabase",
+      "depNameTemplate": "metabase/metabase-enterprise",
       "matchStrings": [
         "METABASE_VERSION: (?<currentValue>v0\\.\\d{1,2}\\.\\d{1,2})"
       ]
